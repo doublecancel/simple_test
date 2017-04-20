@@ -1,0 +1,39 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : simple_test : test_web_function-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/test_web_function/build/libs/exploded/test_web_function-1.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/test_web_function/build/libs/exploded/test_web_function-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="test_web_function_main/web/Web Gradle : test_web_function-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="test_web_function_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/test_web_function/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/test_web_function/lib/spring-webflux-5.0.0.M5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/test_web_function/lib/spring-core-5.0.0.M5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/test_web_function/lib/spring-web-5.0.0.M5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/test_web_function/lib/spring-context-support-5.0.0.M5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/test_web_function/lib/spring-beans-5.0.0.M5.jar" />
+          <element id="library" level="project" name="Gradle: io.projectreactor:reactor-core:3.0.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.2" />
+          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-core:2.8" />
+          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-jcl:2.8" />
+          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:4.0.0-b05" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.0" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.2" />
+          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-api:2.8" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Gradle: org.reactivestreams:reactive-streams:1.0.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

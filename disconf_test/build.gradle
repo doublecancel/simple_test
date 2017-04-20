@@ -1,0 +1,28 @@
+group 'simple_test'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+repositories{
+    maven{ url"http://maven.aliyun.com/nexus/content/groups/public"}
+}
+dependencies {
+    compile group: 'com.baidu.disconf', name: 'disconf-core', version: '2.6.36'
+    compile group: 'com.baidu.disconf', name: 'disconf-client', version: '2.6.36'
+    compile group: 'redis.clients', name: 'jedis', version: '2.9.0'
+
+    compile group: 'org.springframework', name: 'spring-core', version: '4.3.7.RELEASE'
+    compile group: 'org.springframework', name: 'spring-beans', version: '4.3.7.RELEASE'
+    compile group: 'org.springframework', name: 'spring-web', version: '4.3.7.RELEASE'
+    compile group: 'org.springframework', name: 'spring-context', version: '4.3.7.RELEASE'
+
+    compile group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.0-b05'
+    compile group: 'org.springframework', name: 'spring-webmvc', version: '4.3.7.RELEASE'
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+    compile group: 'ch.qos.logback', name: 'logback-core', version: '1.2.3'
+
+
+}

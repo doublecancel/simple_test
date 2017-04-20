@@ -1,0 +1,30 @@
+group 'simple_test'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":jar_dependence")
+
+    compile 'com.atomikos:transactions-jdbc:3.9.3'
+    //分布式事务管理
+    // https://mvnrepository.com/artifact/com.atomikos/atomikos-util
+//    compile group: 'com.atomikos', name: 'atomikos-util', version: '4.0.4'
+//    // https://mvnrepository.com/artifact/com.atomikos/transactions-api
+//    compile group: 'com.atomikos', name: 'transactions-api', version: '4.0.4'
+//// https://mvnrepository.com/artifact/com.atomikos/transactions
+//    compile group: 'com.atomikos', name: 'transactions', version: '4.0.4'
+    // https://mvnrepository.com/artifact/javax.transaction/jta
+    compile group: 'javax.transaction', name: 'jta', version: '1.1'
+    compile 'org.springframework:spring-test:4.1.6.RELEASE'
+    // https://mvnrepository.com/artifact/org.atteo.moonshine/atomikos
+//    compile group: 'org.atteo.moonshine', name: 'atomikos', version: '1.2'
+    compile("mysql:mysql-connector-java:6.0.2") { exclude group: 'org.slf4j'; exclude group: 'log4j' }
+
+}

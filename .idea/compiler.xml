@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="db_cut_main" target="1.8" />
+      <module name="db_cut_test" target="1.8" />
+      <module name="disconf_test_main" target="1.8" />
+      <module name="disconf_test_test" target="1.8" />
+      <module name="jar_dependence_main" target="1.8" />
+      <module name="jar_dependence_test" target="1.8" />
+      <module name="jta_test_main" target="1.8" />
+      <module name="jta_test_test" target="1.8" />
+      <module name="simple_test_main" target="1.8" />
+      <module name="simple_test_test" target="1.8" />
+      <module name="test_eventbus_main" target="1.8" />
+      <module name="test_eventbus_test" target="1.8" />
+      <module name="test_starter_main" target="1.8" />
+      <module name="test_starter_test" target="1.8" />
+      <module name="test_web_function_main" target="1.8" />
+      <module name="test_web_function_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

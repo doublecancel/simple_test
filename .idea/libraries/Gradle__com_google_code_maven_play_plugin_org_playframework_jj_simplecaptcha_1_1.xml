@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.code.maven-play-plugin.org.playframework:jj-simplecaptcha:1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.maven-play-plugin.org.playframework/jj-simplecaptcha/1.1/7e8fe7db5325b86b2c60b58ec141cf1ed32e23e4/jj-simplecaptcha-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.maven-play-plugin.org.playframework/jj-simplecaptcha/1.1/f25e54d911c5d8620e502389d6e7ba0923111d82/jj-simplecaptcha-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

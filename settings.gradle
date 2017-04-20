@@ -1,0 +1,9 @@
+rootProject.name = 'simple_test'
+include 'db_cut'
+include 'jar_dependence'
+include 'jta_test'
+include 'disconf_test'
+include 'test_eventbus'
+include 'test_web_function'
+include 'test_starter'
+

@@ -1,0 +1,10 @@
+server:
+  address: web.com
+  port: 10003
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/edaishou?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+banner.location: classpath:banner.txt

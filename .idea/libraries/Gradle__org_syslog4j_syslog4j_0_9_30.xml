@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.syslog4j:syslog4j:0.9.30">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.syslog4j/syslog4j/0.9.30/e003212d885673ffd019612d3639a4075747b8af/syslog4j-0.9.30.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.syslog4j/syslog4j/0.9.30/ce3d0d03f8c6fe0fff2baf4ee2efee85b6628490/syslog4j-0.9.30-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

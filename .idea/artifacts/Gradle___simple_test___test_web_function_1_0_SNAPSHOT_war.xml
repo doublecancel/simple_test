@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : simple_test : test_web_function-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/test_web_function/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="test_web_function-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Gradle : simple_test : test_web_function-1.0-SNAPSHOT.war (exploded)" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+
+       该代码由生成工具完成, 如果需要改写mapper, 请重新创建mapper文件
+       并增加你需要的功能。如强制改写此模板, 会导致以后变更mapper时造成
+       改写代码丢失。
+
+-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="gg.test.dao.ITestReadDao">
+    <!--根据ID查找domain-->
+    <select id="findDomainById" resultType="String">
+        select name from `edaishou`.`test` a where a.id = 10;
+    </select>
+
+</mapper>
