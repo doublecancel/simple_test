@@ -6,4 +6,6 @@ include 'disconf_test'
 include 'test_eventbus'
 include 'test_web_function'
 include 'test_starter'
+include 'test_java'
+include 'test_guava'
 
