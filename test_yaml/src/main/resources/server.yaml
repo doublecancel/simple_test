@@ -1,0 +1,10 @@
+c:
+  b:
+    a:
+      server:
+        redis:
+          host: 127.0.0.1
+          port: 7000
+          username: root
+          password: root
+          names: aaa, bbb, ccc, ddd

@@ -15,12 +15,26 @@
       <module name="jta_test_test" target="1.8" />
       <module name="simple_test_main" target="1.8" />
       <module name="simple_test_test" target="1.8" />
+      <module name="test-jodd_main" target="1.8" />
+      <module name="test-jodd_test" target="1.8" />
       <module name="test_eventbus_main" target="1.8" />
       <module name="test_eventbus_test" target="1.8" />
+      <module name="test_guava_main" target="1.8" />
+      <module name="test_guava_test" target="1.8" />
+      <module name="test_java_main" target="1.8" />
+      <module name="test_java_test" target="1.8" />
+      <module name="test_job_main" target="1.8" />
+      <module name="test_job_test" target="1.8" />
+      <module name="test_rabbitmq_main" target="1.8" />
+      <module name="test_rabbitmq_test" target="1.8" />
+      <module name="test_springevent_main" target="1.8" />
+      <module name="test_springevent_test" target="1.8" />
       <module name="test_starter_main" target="1.8" />
       <module name="test_starter_test" target="1.8" />
       <module name="test_web_function_main" target="1.8" />
       <module name="test_web_function_test" target="1.8" />
+      <module name="test_yaml_main" target="1.8" />
+      <module name="test_yaml_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

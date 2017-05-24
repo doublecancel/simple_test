@@ -15,9 +15,16 @@
             <option value="$PROJECT_DIR$/disconf_test" />
             <option value="$PROJECT_DIR$/jar_dependence" />
             <option value="$PROJECT_DIR$/jta_test" />
+            <option value="$PROJECT_DIR$/test-jodd" />
             <option value="$PROJECT_DIR$/test_eventbus" />
+            <option value="$PROJECT_DIR$/test_guava" />
+            <option value="$PROJECT_DIR$/test_java" />
+            <option value="$PROJECT_DIR$/test_job" />
+            <option value="$PROJECT_DIR$/test_rabbitmq" />
+            <option value="$PROJECT_DIR$/test_springevent" />
             <option value="$PROJECT_DIR$/test_starter" />
             <option value="$PROJECT_DIR$/test_web_function" />
+            <option value="$PROJECT_DIR$/test_yaml" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

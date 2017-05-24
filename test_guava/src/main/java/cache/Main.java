@@ -1,9 +1,11 @@
 package cache;
 
+import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
 
+import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -15,6 +17,13 @@ public class Main {
 
         LoadingCache<String, String> cache = CacheBuilder.newBuilder()
                 .maximumSize(1000)
+                .expireAfterWrite(3, TimeUnit.SECONDS)
+                .recordStats()//记录命中率
+                .initialCapacity(10)//初始化容量
+                .concurrencyLevel(4)//更新并发数
+                .removalListener((a) -> {//移除事件监听
+
+                })
                 .expireAfterAccess(4, TimeUnit.SECONDS)
                 .build(new CacheLoader<String, String>(){
                     @Override
@@ -23,7 +32,6 @@ public class Main {
                         return key + ".value";
                     }
                 });
-
         String s = cache.get("abc");
         System.out.println(s);
         String s1 = cache.get("abc");
@@ -33,8 +41,9 @@ public class Main {
         System.out.println(s1);
         System.out.println(s2);
         System.out.println(s3);
-
-
-
+        Cache cache1 = CacheBuilder.newBuilder().build();
+        HashMap<String, String> map = new HashMap<>();
+        map.put("a", "b");
+        map.get("");
     }
 }

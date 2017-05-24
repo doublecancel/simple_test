@@ -19,9 +19,9 @@
         <element id="directory" name="lib">
           <element id="file-copy" path="$PROJECT_DIR$/test_web_function/lib/spring-webflux-5.0.0.M5.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/test_web_function/lib/spring-core-5.0.0.M5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/test_web_function/lib/spring-beans-5.0.0.M5.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/test_web_function/lib/spring-web-5.0.0.M5.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/test_web_function/lib/spring-context-support-5.0.0.M5.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/test_web_function/lib/spring-beans-5.0.0.M5.jar" />
           <element id="library" level="project" name="Gradle: io.projectreactor:reactor-core:3.0.6.RELEASE" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.2" />
           <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-core:2.8" />

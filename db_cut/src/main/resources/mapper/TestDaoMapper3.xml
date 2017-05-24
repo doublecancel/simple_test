@@ -9,12 +9,12 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="gg.test.dao.ITestDao">
+<mapper namespace="gg.com.test.test.dao.ITestDao">
     <!--根据ID查找domain-->
     <select id="findDomainById" resultType="String">
         select name from `edaishou`.`test` a where a.id = 10;
     </select>
-    <update id="updateDomain" parameterType="gg.test.domain.TestDomain">
+    <update id="updateDomain" parameterType="gg.com.test.test.domain.TestDomain">
         update `edaishou`.`test` SET NAME = #{name},nickname = #{nickname},ip=#{id}
         where id = 10;
 

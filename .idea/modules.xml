@@ -17,15 +17,37 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/simple_test.iml" filepath="$PROJECT_DIR$/.idea/modules/simple_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/simple_test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/simple_test_main.iml" group="simple_test" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/simple_test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/simple_test_test.iml" group="simple_test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test-jodd.iml" filepath="$PROJECT_DIR$/.idea/modules/test-jodd.iml" group="test-jodd" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test-jodd/test-jodd_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test-jodd/test-jodd_main.iml" group="test-jodd" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test-jodd/test-jodd_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test-jodd/test-jodd_test.iml" group="test-jodd" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_eventbus/test_eventbus.iml" filepath="$PROJECT_DIR$/.idea/modules/test_eventbus/test_eventbus.iml" group="test_eventbus" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_eventbus/test_eventbus_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test_eventbus/test_eventbus_main.iml" group="test_eventbus" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_eventbus/test_eventbus_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test_eventbus/test_eventbus_test.iml" group="test_eventbus" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_guava/test_guava.iml" filepath="$PROJECT_DIR$/.idea/modules/test_guava/test_guava.iml" group="test_guava" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_guava/test_guava_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test_guava/test_guava_main.iml" group="test_guava" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_guava/test_guava_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test_guava/test_guava_test.iml" group="test_guava" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_java/test_java.iml" filepath="$PROJECT_DIR$/.idea/modules/test_java/test_java.iml" group="test_java" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_java/test_java_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test_java/test_java_main.iml" group="test_java" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_java/test_java_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test_java/test_java_test.iml" group="test_java" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_job.iml" filepath="$PROJECT_DIR$/.idea/modules/test_job.iml" group="test_job" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_job/test_job_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test_job/test_job_main.iml" group="test_job" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_job/test_job_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test_job/test_job_test.iml" group="test_job" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_rabbitmq/test_rabbitmq.iml" filepath="$PROJECT_DIR$/.idea/modules/test_rabbitmq/test_rabbitmq.iml" group="test_rabbitmq" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_rabbitmq/test_rabbitmq_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test_rabbitmq/test_rabbitmq_main.iml" group="test_rabbitmq" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_rabbitmq/test_rabbitmq_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test_rabbitmq/test_rabbitmq_test.iml" group="test_rabbitmq" />
+      <module fileurl="file://$PROJECT_DIR$/test_scala/test_scala.iml" filepath="$PROJECT_DIR$/test_scala/test_scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_springevent.iml" filepath="$PROJECT_DIR$/.idea/modules/test_springevent.iml" group="test_springevent" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_springevent/test_springevent_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test_springevent/test_springevent_main.iml" group="test_springevent" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_springevent/test_springevent_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test_springevent/test_springevent_test.iml" group="test_springevent" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_starter/test_starter.iml" filepath="$PROJECT_DIR$/.idea/modules/test_starter/test_starter.iml" group="test_starter" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_starter/test_starter_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test_starter/test_starter_main.iml" group="test_starter" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_starter/test_starter_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test_starter/test_starter_test.iml" group="test_starter" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_web_function/test_web_function.iml" filepath="$PROJECT_DIR$/.idea/modules/test_web_function/test_web_function.iml" group="test_web_function" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_web_function/test_web_function_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test_web_function/test_web_function_main.iml" group="test_web_function" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_web_function/test_web_function_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test_web_function/test_web_function_test.iml" group="test_web_function" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_yaml.iml" filepath="$PROJECT_DIR$/.idea/modules/test_yaml.iml" group="test_yaml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_yaml/test_yaml_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test_yaml/test_yaml_main.iml" group="test_yaml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_yaml/test_yaml_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test_yaml/test_yaml_test.iml" group="test_yaml" />
     </modules>
   </component>
 </project>

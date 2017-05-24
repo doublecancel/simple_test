@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.dangdang:elastic-job-common-core:2.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dangdang/elastic-job-common-core/2.1.1/cf13a00b96397042d1f1f2d343f7b9be220f53e/elastic-job-common-core-2.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dangdang/elastic-job-common-core/2.1.1/4f791c46d148e6b4f0f270f951b34f21a8f90aba/elastic-job-common-core-2.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -9,7 +9,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="gg.test.dao.ITestReadDao">
+<mapper namespace="gg.com.test.test.dao.ITestReadDao">
     <!--根据ID查找domain-->
     <select id="findDomainById" resultType="String">
         select name from `edaishou`.`test` a where a.id = 10;
