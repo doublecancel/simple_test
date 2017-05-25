@@ -11,10 +11,28 @@ import java.util.List;
 @EnableYaml(prefix = "c.b.a.server.redis", path = "server.yaml")
 public class RedisConfig {
     private String host;
-    private int port;
+    private Integer port;
     private String username;
     private String password;
     private List<String> names;
+    private User user;
+    private Customer customer;
+
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 
     public List<String> getNames() {
         return names;
@@ -32,11 +50,11 @@ public class RedisConfig {
         this.host = host;
     }
 
-    public int getPort() {
+    public Integer getPort() {
         return port;
     }
 
-    public void setPort(int port) {
+    public void setPort(Integer port) {
         this.port = port;
     }
 
@@ -64,6 +82,8 @@ public class RedisConfig {
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", names=" + names +
+                ", user=" + user.toString() +
+                ", customer=" + customer.toString() +
                 '}';
     }
 }

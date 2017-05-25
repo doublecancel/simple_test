@@ -8,3 +8,13 @@ c:
           username: root
           password: root
           names: aaa, bbb, ccc, ddd
+          user:
+            id: 1
+            name: lxl
+          customer:
+            id: 2
+            name: lxl
+            names: lxl1, lxl2, lxl3
+            customer1:
+              name: test
+              gender: N
