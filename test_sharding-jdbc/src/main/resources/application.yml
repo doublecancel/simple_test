@@ -1,0 +1,16 @@
+server:
+  address: 192.168.200.120
+  port: 10001
+datasource:
+  driverClass: org.mariadb.jdbc.Driver
+  url: jdbc:mysql://192.168.200.120:3306/test?useUnicode=true&characterEncoding=utf-8
+  user: root
+  password: root
+logging:
+  level:
+    root: INFO
+    org.springframework.web: WARN
+    org.springframework.jdbc.core.JdbcTemplate: debug
+  pattern:
+    console: '时间:%d{HH:mm:ss} [%thread] - 级别:%-5level - 位置:%logger - 消息:%msg%n'
+    file: '时间:%d{HH:mm:ss} [%thread] - 级别:%-5level - 位置:%logger - 消息:%msg%n'
