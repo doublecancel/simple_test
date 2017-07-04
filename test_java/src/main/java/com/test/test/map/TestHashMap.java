@@ -1,9 +1,6 @@
 package com.test.test.map;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.atomic.AtomicLong;
+import java.util.concurrent.*;
 
 /**
  * Created by Administrator on 2017/5/8.
@@ -32,19 +29,48 @@ public class TestHashMap {
     public static void main(String[] args) {
 
 
-        Map<String, String> map = new HashMap<String, String>();
+        //当超过最大线程池数量，则抛出异常
+        ThreadPoolExecutor.AbortPolicy abortPolicy = new ThreadPoolExecutor.AbortPolicy();
+        //当超过最大线程池数量，直接执行run方法，如果线程池关闭则舍弃该线程。
+        ThreadPoolExecutor.CallerRunsPolicy callerRunsPolicy = new ThreadPoolExecutor.CallerRunsPolicy();
+        //当超过最大线程池数量，舍弃掉等待队列中的最后一个线程
+        ThreadPoolExecutor.DiscardOldestPolicy discardOldestPolicy = new ThreadPoolExecutor.DiscardOldestPolicy();
+        //如果超过最大线程池数量，直接舍弃掉。
+        ThreadPoolExecutor.DiscardPolicy discardPolicy = new ThreadPoolExecutor.DiscardPolicy();
 
 
-        map.put("a", "b");
+        ThreadPoolExecutor poolExecutor = new ThreadPoolExecutor(2,
+                5,
+                5,
+                TimeUnit.SECONDS,
+                new ArrayBlockingQueue<Runnable>(5),
+                Executors.defaultThreadFactory(),
+                abortPolicy
+        );
+        for(int a = 0 ; a < 10; a++){
+            poolExecutor.execute(() -> {
+                System.out.println("===========start===========");
+                try {
+                    TimeUnit.SECONDS.sleep(3);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println("=========end=========");
+            });
+        }
 
-        Map<String, String> cmap = new ConcurrentHashMap<>();
+        ExecutorService service = Executors.newFixedThreadPool(3);
+        ExecutorService service1 = Executors.newCachedThreadPool();
+        ExecutorService service2 = Executors.newScheduledThreadPool(3);
+        ExecutorService service3 = Executors.newSingleThreadExecutor();
 
-        AtomicLong atomicLong = new AtomicLong();
+        service.execute(() -> {
 
+        });
 
+    }
 
-
-
-
+    public static String test(){
+        return "aaa";
     }
 }
