@@ -18,7 +18,7 @@ object Conn{
   val table = "User"
   case class Column(var fieldName : String, var fieldType : String, var isPrimary : Boolean = false)
   var container : List[Column] = List()
-  val mappings : Map[String, Any] = Map("bigint"->Long, "varchar"->String, "datetime"->java.util.Date)
+//  val mappings : Map[String, Any] = Map("bigint"->Long, "varchar"->String, "datetime"->java.util.Date)
 
   def getTableInfo = {
     Class.forName(driverName)
@@ -34,7 +34,18 @@ object Conn{
   }
 
   def create = {
-
+    Class.forName(driverName)
+    val connection =  DriverManager.getConnection(url, user, password)
+    val pst = connection.prepareStatement("insert into User (name, age, gender, email, phone, create_date, " +
+      "create_user, modify_date, modify_user, status, version) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)")
+    pst.setString(1, "kafka")
+    val ret = pst.executeQuery();
+    while (ret.next){
+      container = container :+ Column(ret.getString("Field"), ret.getString("Type"))
+    }
+    ret.close()
+    pst.close()
+    connection.close()
   }
 
   def main(args: Array[String]): Unit = {
