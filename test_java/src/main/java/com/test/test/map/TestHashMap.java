@@ -1,5 +1,6 @@
 package com.test.test.map;
 
+import java.util.HashMap;
 import java.util.concurrent.*;
 
 /**
@@ -71,6 +72,8 @@ public class TestHashMap {
     }
 
     public static String test(){
+
+        HashMap map = new HashMap();
         return "aaa";
     }
 }
